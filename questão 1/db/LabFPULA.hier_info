@@ -1,0 +1,42 @@
+|TopDE
+iSW[0] => iSW[0].IN1
+iSW[1] => iSW[1].IN1
+iSW[2] => iSW[2].IN1
+iSW[3] => iSW[3].IN1
+iSW[4] => ~NO_FANOUT~
+iSW[5] => ~NO_FANOUT~
+iSW[6] => ~NO_FANOUT~
+iSW[7] => ~NO_FANOUT~
+iSW[8] => ~NO_FANOUT~
+iSW[9] => ~NO_FANOUT~
+iSW[10] => ~NO_FANOUT~
+iSW[11] => ~NO_FANOUT~
+iSW[12] => ~NO_FANOUT~
+iSW[13] => ~NO_FANOUT~
+iSW[14] => ~NO_FANOUT~
+iSW[15] => ~NO_FANOUT~
+iSW[16] => ~NO_FANOUT~
+iSW[17] => ~NO_FANOUT~
+oHEX1_D[0] <= Decoder7:NOME1.Out
+oHEX1_D[1] <= Decoder7:NOME1.Out
+oHEX1_D[2] <= Decoder7:NOME1.Out
+oHEX1_D[3] <= Decoder7:NOME1.Out
+oHEX1_D[4] <= Decoder7:NOME1.Out
+oHEX1_D[5] <= Decoder7:NOME1.Out
+oHEX1_D[6] <= Decoder7:NOME1.Out
+
+
+|TopDE|Decoder7:NOME1
+In[0] => Decoder0.IN3
+In[1] => Decoder0.IN2
+In[2] => Decoder0.IN1
+In[3] => Decoder0.IN0
+Out[0] <= WideOr6.DB_MAX_OUTPUT_PORT_TYPE
+Out[1] <= WideOr5.DB_MAX_OUTPUT_PORT_TYPE
+Out[2] <= WideOr4.DB_MAX_OUTPUT_PORT_TYPE
+Out[3] <= WideOr3.DB_MAX_OUTPUT_PORT_TYPE
+Out[4] <= WideOr2.DB_MAX_OUTPUT_PORT_TYPE
+Out[5] <= WideOr1.DB_MAX_OUTPUT_PORT_TYPE
+Out[6] <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+
+

@@ -1,0 +1,9 @@
+module letraL (
+	input wire [3:0] In,
+	output reg [6:0] Out);
+
+	
+		default : Out = ~7'b0111000;
+		endcase
+		
+endmodule

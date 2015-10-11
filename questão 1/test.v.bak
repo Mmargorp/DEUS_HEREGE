@@ -1,0 +1,9 @@
+module TopDE(
+	output[6:0] oHEX0_D,
+	output[6:0] oHEX1_D);
+	o=4'b0000;
+	dois=4'b0010;
+	
+	Decoder7 NOME1 (.In(o), .Out(oHEX0_D[6:0]));
+	Decoder7 NOME2 (.In(dois), .Out(oHEX1_D[6:0]));
+	endmodule 
